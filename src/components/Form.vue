@@ -56,7 +56,7 @@
                     class="block uppercase text-xs font-bold mb-2"
                     for="full-name"
                   >Full Name</label><input
-
+                    id="name"
                     type="text"
                     class="px-3 py-3 placeholder-gray-800 text-gray-500 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                     placeholder="Full Name"
@@ -68,7 +68,7 @@
                     class="block uppercase text-xs font-bold mb-2"
                     for="email"
                   >Email</label><input
-
+                    id="email"
                     type="email"
                     class="px-3 py-3 placeholder-gray-800 text-gray-500 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                     placeholder="Email"
@@ -80,7 +80,7 @@
                     class="block uppercase text-xs font-bold mb-2"
                     for="message"
                   >Message</label><textarea
-
+                    id="message"
                     rows="4"
                     cols="80"
                     class="px-3 py-3 placeholder-gray-800 bg-white text-gray-500 rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
