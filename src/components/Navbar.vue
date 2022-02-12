@@ -8,8 +8,8 @@
       <div
         class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
       >
-        <a
-          class="nter hover:text-indigo-500 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-cyan-500"
+        <a id="learn"
+          class="nter hover:text-cyan-200 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
           href="/index.html"
           >NterFace</a
         ><button
@@ -28,26 +28,29 @@
           <!-- Icon 1 -->
           <li class="flex items-center">
             <a
-              class="lato lg:text-cyan-500 lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              id="learn"
+          class="nter hover:text-cyan-200 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
               href="https://www.instagram.com/j_not_query"
-              ><span class="hover:text-indigo-500 inline-block ml-2">Instagram</span></a
+              ><span class="hover:text-cyan-200 inline-block ml-2">Instagram</span></a
             >
           </li>
           <!-- Icon 2 -->
           <li class="flex items-center">
             <a
-              class="lg:text-cyan-500 lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                id="learn"
+          class="nter hover:text-cyan-200 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
               href="https://www.github.com/pepe1776"
               >
-              <span class="lato hover:text-indigo-500 inline-block ml-2">GitHub</span></a
+              <span class="lato hover:text-cyan-200 inline-block ml-2">GitHub</span></a
             >
           </li>
           <!-- Icon 3 -->
           <li class="flex items-center">
             <a
-              class="lato lg:text-cyan-500 lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+               id="learn"
+          class="nter hover:text-cyan-200 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
               href="mailto:justinp@aevio.com"
-              ><span class="hover:text-indigo-500 inline-block ml-2">Email</span></a
+              ><span class="hover:text-cyan-200 inline-block ml-2">Email</span></a
             >
           </li>
         </ul>

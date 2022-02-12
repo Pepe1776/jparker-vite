@@ -1,0 +1,85 @@
+<template>
+ <!--Section -->
+    <section class="pt-20 pb-48"   style="background: linear-gradient(90deg, #c4cffd 0%, #7e00f5 100%)">
+      <div class="container mx-auto px-4" >
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-shadow-xl com text-white text-6xl font-semibold uppercase">
+              Demo Projects
+            </h2>
+            <p class="text-lg text-gray-300 leading-relaxed m-4 lato">
+              Some test projects to give some examples and ideas for customers
+            </p>
+          </div>
+        </div>
+        <!-- Card Wrapper -->
+        <div class="flex flex-wrap">
+          <!-- Card 1 -->
+          <div
+            class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+            data-aos="flip-right"
+          >
+            <div class="px-6">
+              <img
+                id="learn"
+                alt="..."
+                src="https://images.unsplash.com/photo-1589185810360-8ea760bb9836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                class="shadow-lg rounded max-w-full mx-auto"
+                style="max-width: 250px"
+              >
+              <div id="learn" class="pt-6 text-center">
+                <a href="https://monsteria-vite.netlify.app/"><h5 class="text-xl text-emerald-300 font-bold">Monsteria</h5></a>
+                <p class="mt-1 text-sm text-white uppercase font-semibold">
+                  Mobile First Plant app
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div
+            class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+            data-aos="flip-right"
+          >
+            <div class="px-6">
+              <img
+                id="learn"
+                alt="..."
+                src="https://images.unsplash.com/flagged/photo-1587302164675-820fe61bbd55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                class="shadow-lg rounded max-w-full mx-auto"
+                style="max-width: 250px"
+              >
+              <div id="learn" class="pt-6 text-center">
+                <a href="https://vue-grocery-f79c2.web.app/"><h5 class="text-xl text-yellow-300 font-bold">Grocery List App</h5></a>
+                <p class="mt-1 text-sm text-white uppercase font-semibold">
+                  Tied to a backend database to handle grocery items
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+            data-aos="flip-right"
+          >
+            <div class="px-6">
+              <img
+                id="learn"
+                alt="..."
+                src="https://icon-library.com/images/github-icon-white/github-icon-white-2.jpg"
+                class="shadow-lg rounded max-w-full mx-auto"
+                style="max-width: 250px"
+              >
+              <div id="learn" class="pt-6 text-center">
+                <h5 class="text-xl text-cyan-300 font-bold">
+                  GitHub Repos
+                </h5>
+                <p class="mt-1 text-sm text-white uppercase font-semibold">
+                  lots of projects in my public repositories
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</template>

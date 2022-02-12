@@ -3,8 +3,10 @@ import Navbar from '../components/Navbar.vue';
 import Main from '../components/Main.vue';
 import Features from '../components/Features.vue';
 import Hero from '../components/Hero.vue';
-import Form from '../components/Form.vue';
+// import Form from '../components/Form.vue';
 import Footerb from '../components/Footerb.vue';
+import About from '../components/About.vue';
+import Demo from '../components/Demo.vue';
 
 export default {
 components: {
@@ -12,8 +14,10 @@ components: {
   Main, 
   Features,
   Hero, 
-  Form, 
+  // Form, 
   Footerb, 
+  About,
+  Demo,
 }
 }
 
@@ -23,9 +27,11 @@ components: {
 <div>
     <Navbar />
     <Main />
-    <Features />
     <Hero />
-    <Form />
+    <About />
+    <Demo />
+    <Features />
+    <!-- <Form /> -->
     <Footerb />
   </div>
 </template>

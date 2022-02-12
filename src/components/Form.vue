@@ -90,7 +90,7 @@
                 <div class="text-center mt-6">
                   <button
                     id="learn"
-                    class="bg-transparent hover:bg-lime-400 hover:text-cyan-800 text-white font-semibold hover:text-white p-4 border border-gray-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer active:translate-y-5"
+                    class="bg-transparent hover:bg-lime-400 hover:text-cyan-800 text-white font-semibold p-4 border border-gray-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer active:translate-y-5"
                     style="transition: all 0.15s ease 0s"
                   >
                     Send Message
