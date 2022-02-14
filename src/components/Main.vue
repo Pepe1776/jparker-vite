@@ -31,7 +31,7 @@
               <a
                 id="learn"
                 href="#"
-                class="shadow-2xl text-shadow-2xl nter bg-transparent hover:bg-white text-white font-bold hover:text-cyan-500 p-4 border border-white hover:border-transparent rounded inline-block mt-5 cursor-pointer hover:translate-y-5 active:translate-y-5"
+                class="shadow-2xl text-shadow-2xl nter bg-transparent hover:bg-white text-white font-bold hover:text-indigo-500 p-4 border border-white hover:border-transparent rounded inline-block mt-5 cursor-pointer hover:translate-y-5 active:translate-y-5"
               >Enhance</a>
             </div>
           </div>
@@ -86,6 +86,9 @@ h1 {
 }
 .parker {
   color: rgb(255, 255, 255);
+  font-family: 'Great Vibes', cursive;
+}
+.vibes {
   font-family: 'Great Vibes', cursive;
 }
 </style>
