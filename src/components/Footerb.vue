@@ -1,6 +1,6 @@
 <template>
   <!-- Footer -->
-  <footer class="relative bg-gray-300 pt-8 pb-6">
+  <footer  style="background: linear-gradient(90deg, #c4cffd 0%, #7e00f5 100%)" class="relative  pt-8 pb-6">
     <div
       class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
       style="height: 80px; transform: translateZ(0px)"
@@ -17,6 +17,7 @@
         <polygon
           class="text-gray-300 fill-current"
           points="2560 0 2560 100 0 100"
+           style="background: linear-gradient(90deg, #c4cffd 0%, #7e00f5 100%)"
         />
       </svg>
     </div>
