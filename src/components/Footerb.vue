@@ -31,14 +31,14 @@
             Find us on any of these platforms, we respond 1-2 business days.
           </h5>
           <div class="mt-6 flex justify-center">
-           <a href="http://www.instagram.com/j_not_query"><button
-              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+           <a href="http://www.instagram.com/j_not_query"><button id="learn"
+              class=" bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
               type="button"
             >
               <i
                 class="flex fab fa-brands fa-instagram text-orange-500"
               />
-            </button></a><button
+            </button></a><button id="learn"
               class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
               type="button"
             >
