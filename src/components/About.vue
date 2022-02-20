@@ -23,44 +23,44 @@
                 Full Stack
               </h3>
 
-              <ul class="list-none mt-6">
-                <li class="py-2">
+              <ul class="list-none mt-6 flex flex-col justify-center align-center text-center">
+                <li class="py-6">
                   <div class="flex items-center">
                     <div>
                       <span
-                        class="font-semibold inline-block py-3 mr-3 text-orange-500"
-                      ><i class="fas fa-dumbbell fa-2x" /></span>
+                        class="font-semibold align-center flex  text-indigo-100"
+                      ><i class="fas fa-scissors fa-2x" /></span>
                     </div>
                     <div>
-                      <h4 class="lato text-white text-2xl">
+                      <h4 class="lato text-white text-2xl ml-20">
                         From custom tailored designs to full production deployment
                       </h4>
                     </div>
                   </div>
                 </li>
-                <li class="py-2">
+                <li class="py-6">
                   <div class="flex items-center">
                     <div>
                       <span
-                        class="font-semibold inline-block py-3 mr-3 text-orange-500"
-                      ><i class="fas fa-hard-hat fa-2x" /></span>
+                        class="font-semibold align-center flex  text-indigo-100"
+                      ><i class="fas fa-bolt-lightning fa-2x" /></span>
                     </div>
                     <div>
-                      <h4 class="lato text-2xl text-white">
+                      <h4 class="lato text-2xl text-white ml-20">
                         Vue/Vite applications and web sites that run extremely fast
                       </h4>
                     </div>
                   </div>
                 </li>
-                <li class="py-2">
+                <li class="py-6">
                   <div class="flex items-center">
                     <div>
                       <span
-                        class="font-semibold inline-block py-3 mr-3 text-orange-500"
+                        class="font-semibold align-center flex  text-indigo-100"
                       ><i class="fas fa-users fa-2x" /></span>
                     </div>
                     <div>
-                      <h4 class="lato text-2xl text-white">
+                      <h4 class="lato text-2xl text-white ml-20">
                         Systems integrations including Crestron, Qsys, Dante, Control4, BrightSign
                       </h4>
                     </div>
