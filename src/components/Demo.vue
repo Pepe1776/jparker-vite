@@ -23,7 +23,7 @@
               <img
                 id="learn"
                 alt="..."
-                src="https://images.unsplash.com/photo-1589185810360-8ea760bb9836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                src="../assets/Leaf.png"
                 class="rounded max-w-full mx-auto shadow-indigo-900 shadow-xl"
                 style="max-width: 250px"
               ></a>
@@ -44,8 +44,8 @@
               <img
                 id="learn"
                 alt="..."
-                src="https://images.unsplash.com/flagged/photo-1587302164675-820fe61bbd55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
-                class="rounded max-w-full mx-auto shadow-indigo-900 shadow-xl"
+                src="../assets/grocery-bag.png"
+                class="rounded max-w-full mx-auto shadow-indigo-900 shadow-xl "
                 style="max-width: 250px"
               ></a>
               <div id="learn" class="pt-6 text-center">
@@ -65,7 +65,7 @@
               <img
                 id="learn"
                 alt="..."
-                src="https://icon-library.com/images/github-icon-white/github-icon-white-2.jpg"
+                src="../assets/Octocat.png"
                 class="rounded max-w-full mx-auto shadow-indigo-900 shadow-xl"
                 style="max-width: 250px"
               ></a>
