@@ -29,7 +29,7 @@
                     <div>
                       <span
                         class="font-semibold align-center flex  text-indigo-100"
-                      ><i class="fas fa-scissors fa-2x" /></span>
+                      ><i class="fas fa-scissors fa-4x" /></span>
                     </div>
                     <div>
                       <h4 class="lato text-white text-2xl ml-20">
@@ -43,7 +43,7 @@
                     <div>
                       <span
                         class="font-semibold align-center flex  text-indigo-100"
-                      ><i class="fas fa-bolt-lightning fa-2x" /></span>
+                      ><i class="fas fa-bolt-lightning fa-4x" /></span>
                     </div>
                     <div>
                       <h4 class="lato text-2xl text-white ml-20">
@@ -57,7 +57,7 @@
                     <div>
                       <span
                         class="font-semibold align-center flex  text-indigo-100"
-                      ><i class="fas fa-users fa-2x" /></span>
+                      ><i class="fas fa-users fa-4x" /></span>
                     </div>
                     <div>
                       <h4 class="lato text-2xl text-white ml-20">
