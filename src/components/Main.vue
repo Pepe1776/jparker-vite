@@ -7,7 +7,8 @@
       style="min-height: 95vh"
     >
       <div
-        class="absolute top-0 w-full h-full bg-top bg-cover"
+        :class="enhance ? 'opacity-10' : 'hidden'"
+        class="absolute opacity-10 top-0 w-full h-full bg-top bg-cover"
         style="
           background-image: url('https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=955&q=80');
         "
@@ -30,7 +31,7 @@
 
               <a
                 id="learn"
-                href="#"
+                @click="enhance = !enhance"
                 class="shadow-2xl text-shadow-2xl nter bg-transparent hover:bg-white text-white font-bold hover:text-indigo-500 p-4 border border-white hover:border-transparent rounded inline-block mt-5 cursor-pointer hover:translate-y-5 active:translate-y-5"
               >Enhance</a>
             </div>
@@ -58,6 +59,15 @@
    
   </main>
 </template>
+<script>
+export default {
+    data() {
+    return {
+      enhance: false,
+    };
+  },
+}
+</script>
 
 <style>
 * {
