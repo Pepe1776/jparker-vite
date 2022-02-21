@@ -3,8 +3,10 @@
   <main>
     <!-- Hero -->
     <div
-      class="relative pt-32 pb-32 flex content-center items-center justify-center"
-      style="min-height: 95vh"
+    @mousemove="onMousemove"
+  :style="{ backgroundColor: `hsl(${x}, 50%, 20%)` }"
+   class="movearea relative pt-32 pb-32 flex content-center items-center justify-center"
+   style="min-height: 95vh"
     >
       <div
         :class="enhance ? 'opacity-10' : 'hidden'"
@@ -22,12 +24,15 @@
         <div class="items-center flex flex-wrap">
           <div id="name" class="w-full lg:w-full px-4 ml-auto mr-auto text-center">
             <div>
+
+              
               <h1 id="j" class=" font-semibold text-9xl text-shadow-xl">
                 J <span class="parker">Parker</span>
               </h1>
               <p class="p-2 mt-5 text-2xl text-shadow-xl text-white">
                 Fully responsive and extremely fast modern applications and web pages tailor made for each customers needs and wants
               </p>
+              <p class="text-white">x: {{ x }}</p>
 
               <a
                 id="learn"
@@ -60,11 +65,19 @@
   </main>
 </template>
 <script>
+
 export default {
     data() {
     return {
       enhance: false,
+      x: 1007
     };
+  },
+  methods: {
+    onMousemove(e) {
+      this.x = e.clientX
+    }
+
   },
 }
 </script>
@@ -72,6 +85,9 @@ export default {
 <style>
 * {
   font-family: 'Comfortaa', cursive;
+}
+.movearea {
+  transition: 0.3s background-color ease;
 }
 
 #learn:hover {

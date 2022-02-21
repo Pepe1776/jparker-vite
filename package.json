@@ -9,6 +9,7 @@
   "dependencies": {
     "vue": "^3.2.30",
     "vue-router": "^4.0.12"
+    
   },
   "devDependencies": {
     "@headlessui/vue": "^1.4.3",
