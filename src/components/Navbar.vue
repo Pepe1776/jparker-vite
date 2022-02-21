@@ -9,7 +9,7 @@
         class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
       ><router-link to="~/">
         <a id="learn"
-          class="nter hover:text-indigo-900 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+          class="nter hover:text-indigo-300 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
           >NterFace</a
         ></router-link><button
           class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block outline-none focus:outline-none"
@@ -25,9 +25,9 @@
           <li class="flex items-center justify-center">
             <a
               id="learn"
-          class="nter hover:text-indigo-900 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+          class="nter hover:text-indigo-300 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
               href="https://www.instagram.com/j_not_query"
-              ><span class="hover:text-indigo-900 inline-block ml-2">Instagram</span></a
+              ><span class="hover:text-indigo-300 inline-block ml-2">Instagram</span></a
             >
           </li>
           <!-- Icon 2 -->
