@@ -14,6 +14,51 @@
         </div>
         <!-- Card Wrapper -->
         <div class="flex flex-wrap">
+
+          <div
+            class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+            data-aos="flip-right"
+          >
+            <div class="px-6"><a href="https://web3-guestbook.netlify.app/">
+              <img
+                id="learn"
+                alt="..."
+                src="../assets/—Pngtree—3d rendering cryptocurrency solana black_6965095.png"
+                class="rounded max-w-full mx-auto shadow-indigo-900 shadow-xl"
+                style="max-width: 250px"
+              ></a>
+              <a href="https://web3-guestbook.netlify.app/"><div id="learn" class="pt-6 text-center">
+                <h5 class="text-xl text-indigo-100 font-bold">
+                  Web3-GuestBook
+                </h5>
+                <p class="mt-1 text-sm text-white uppercase font-semibold">
+                  Solidity, Ploygon , Alchemy, MetaMask, Ethers web3 Dapp
+                </p>
+              </div></a>
+            </div>
+          </div>
+          <div
+            class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+            data-aos="flip-right"
+          >
+            <div class="px-6"><a href="https://web3-tracker.netlify.app/">
+              <img
+                id="learn"
+                alt="..."
+                src="../assets/—Pngtree—3d front view rendering cryptocurrency_7261247.png"
+                class="rounded max-w-full mx-auto shadow-indigo-900 shadow-xl"
+                style="max-width: 250px"
+              ></a>
+              <a href="https://web3-tracker.netlify.app/"><div id="learn" class="pt-6 text-center">
+                <h5 class="text-xl text-gray-100 font-bold">
+                  Web3-Tracker
+                </h5>
+                <p class="mt-1 text-sm text-white uppercase font-semibold">
+                  Web3 Crypto coin tracker app with search filter and live API connection
+                </p>
+              </div></a>
+            </div>
+          </div>
           <!-- Card 1 -->
           <div
             class="w-full md:w-4/12 lg:mb-0 mb-12 px-4 "
@@ -57,6 +102,7 @@
             </div>
           </div>
           <!-- Card 3 -->
+          
           <div
             class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
             data-aos="flip-right"
