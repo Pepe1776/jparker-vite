@@ -1,7 +1,7 @@
 <script>
 import Navbar from '../components/Navbar.vue';
 import Main from '../components/Main.vue';
-import Features from '../components/Features.vue';
+// import Features from '../components/Features.vue';
 import Hero from '../components/Hero.vue';
 // import Form from '../components/Form.vue';
 import Footerb from '../components/Footerb.vue';
@@ -12,7 +12,7 @@ export default {
 components: {
   Navbar, 
   Main, 
-  Features,
+  // Features,
   Hero, 
   // Form, 
   Footerb, 
@@ -24,14 +24,16 @@ components: {
 </script>
 
 <template>
-<div>
     <Navbar />
     <Main />
     <Hero />
     <About />
     <Demo />
-    <Features />
+    <!-- <Features /> -->
     <!-- <Form /> -->
     <Footerb />
-  </div>
 </template>
+
+<style>
+
+</style>
